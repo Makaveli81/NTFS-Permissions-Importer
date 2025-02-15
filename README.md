@@ -1,12 +1,12 @@
-# Objectif des Scripts
+# Objectif des scripts
 
 Cette suite de scripts a été développée pour faciliter l'importation des données d'un serveur de production vers un environnement de test. L'objectif principal est d'analyser les permissions NTFS, ainsi que les objets Active Directory (OU, utilisateurs, groupes, etc.), dans un environnement sécurisé. Ces données peuvent ensuite être retravaillées, modifiées ou optimisées avant d'être réintégrées dans un environnement de production. Pour analyser les droits NTFS, j'ai utilisé l'outil **Cjwdev**.
 
-# Scripts d'Exportation et d'Importation pour Environnement Windows Serveur
+# Scripts d'exportation et d'importation pour environnement Windows Serveur
 
 Ce dépôt contient plusieurs scripts PowerShell utilisés dans un environnement hybride/test/production pour exporter et importer une arborescence de fichiers et des objets Active Directory.
 
-## Structure du Dépôt
+## Structure du dépôt
 
 - `EXPORT-DATA/EXPORT-DATA.ps1` : Exporte les OU, utilisateurs, groupes, membres des groupes AD, noms des dossiers et permissions NTFS dans des fichiers CSV.
 - `IMPORT-DATA/Import-FOLDER.ps1` : Importe et crée des dossiers à partir d'un fichier CSV.
@@ -38,8 +38,8 @@ Ce dépôt contient plusieurs scripts PowerShell utilisés dans un environnement
 
 ## Prérequis
 
-- PowerShell 5.1 ou supérieur
-- Module Active Directory (`Install-Module -Name ActiveDirectory`)
+- PowerShell 5.1 ou supérieur.
+- Module Active Directory (`Install-Module -Name ActiveDirectory`).
 
 ## Avertissement
 
